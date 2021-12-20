@@ -1,0 +1,79 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: sans-serif;
+}
+body
+{
+    background-image: url('form\ image.jpg');
+}
+.container
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 350px;
+    width: 100%;
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 2px rgba(254,236,164,1);
+}
+.container h2
+{
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    
+    color: blue;
+
+}
+.container .input
+{
+    margin-bottom:10px;
+}
+.container .input input[type="text"],
+.container textarea
+{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.container .input input[type="password"],
+.container textarea
+{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+}
+.container textarea
+{
+    height: 80px;
+    resize: none;
+}
+button
+{
+    border: 0;
+    margin-top: 15px;
+    padding: 10px;
+    width: 50%;
+    background:blue;
+    color: white;
+    text-transform: uppercase;
+    margin-left: 70px;
+   
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.output
+{
+    color:blue;
+    margin-top: 180px;
+    margin-left: 100px;
+    font-size: medium;
+}

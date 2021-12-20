@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validation form</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h2>REGISTER FORM</h2>
+        <form name="myform"  autocomplete="off">
+            <div class="input">
+                <input type="text" placeholder="Name" name="name" onkeypress="firstname()"><small style="color: red;"
+                    id="namepart"></small><br />
+            </div>
+
+            <div class="input">
+                <input type="text" placeholder="Age" name="age" onkeypress="ages()"><small style="color: red;"
+                    id="agepart"></small><br />
+            </div>
+            <div class="input">
+                <input type="text" placeholder="Email" name="email" onkeypress="emails()"><small style="color: red;"
+                    id="emailpart"></small><br />
+            </div>
+
+
+            <div class="input">
+                <input type="password" placeholder="Password" name="password" onkeypress="passwords()"><small
+                    style="color: red;" id="passwordpart"><small><br />
+            </div>
+
+            <div class="btn">
+                <button  id="btn">submit</button>
+            </div>
+
+           
+            
+        </form>
+        
+
+
+    </div>
+    <script src="./script.js"></script>
+    <div class="output">
+        <p id="f1"></p><br><br>
+        <p id="f2"></p><br><br>
+        <p id="f3"></p><br><br>
+        <p id="f4"></p><br><br>
+    </div>
+</body>
+
+</html>
